@@ -1,0 +1,86 @@
+.outer-container {
+    height: 500px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.header {
+    text-align: center; 
+}
+
+.inner-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 350px;
+    width: 90%;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.innermost-container {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.image {
+    height: 200px;
+    width: 30%;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.details {
+    height: 250px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.details form {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.submit {
+    height: 50px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.label-list {
+    display: flex;
+    flex-direction: row;
+}
+
+label, input {
+    width: 50%;
+}
+
+label {
+    display: flex;
+    justify-content: flex-end;
+}
+
+input, select {
+    margin-left: 5px;
+}
+
+button {
+    margin-right: 30px;
+    width: 100px;
+}
